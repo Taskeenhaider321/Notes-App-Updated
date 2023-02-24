@@ -1,24 +1,30 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "bcryptjs": "^2.4.3",
-    "ejs": "^3.1.8",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
-    "hbs": "^4.2.0",
-    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20",
     "url": "^0.11.0",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taskeenhaider321/notes-app-updated.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Taskeenhaider321/notes-app-updated/issues"
+  },
+  "homepage": "https://github.com/Taskeenhaider321/notes-app-updated#readme",
+  "description": ""
 }
